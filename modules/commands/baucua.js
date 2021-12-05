@@ -9,7 +9,7 @@ module.exports.config = {
   credits: "MintDaL",
   description: "Game bầu cua dành cho nhóm có đặt cược",
   commandCategory: "game",
-  usages: "[nai/bầu/gà/cá/cua/tôm]",
+  usages: "[nai/bầu/gà/cá/cua/tôm] [số tiền muốn cược]",
   cooldowns: 0
 };
 
