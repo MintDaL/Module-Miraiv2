@@ -10,6 +10,8 @@
 
 # Vị Trí Lưu
 - [Module command](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/commands)
+# Một số module khác
+- Nhấn vào [đây](https://github.com/ProcoderMew/Module-Miraiv2)
 
 
 # Hướng Dẫn Tạo APIKEY 
