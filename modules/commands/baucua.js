@@ -30,5 +30,4 @@ function downloadImage() {
   if (!existsSync(__dirname + `/cache/baucua.gif`))
     request(`https://media.giphy.com/media/lTYLtiktVNr0k3SVOP/giphy.gif`)
       .pipe(createWriteStream(__dirname + `/cache/baucua.gif`));
-  console.log(require('figlet').textSync('DIT ME JS'));
 }
