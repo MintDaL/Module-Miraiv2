@@ -20,7 +20,7 @@ function downloadImage() {
   const { existsSync, createWriteStream } = require('fs-extra');
   const y = ["nai", "bau", "ga", "ca", "cua", "tom"];
   //thay id theo format cua array y;
-  var id = ["3wSBQO5", "XnqjRGc", "M3PFLUY", "MOtJK40", "QTmmA5R", "NBLOxiP"];
+  var id = ["3wSBQO5", "XnqjRGc", "M3PFLUY", "QTmmA5R", "MOtJK40" , "NBLOxiP"];
   id.forEach(function (e, index) {
     let url = `https://i.imgur.com/${e}.jpg`;
     if (!existsSync(__dirname + `/cache/${y[index]}.jpg`))
