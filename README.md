@@ -6,10 +6,15 @@
 - **Cấm chỉnh sửa credits.**
 - **Hạn chế chỉnh sửa (mod) module.**
 
-# Cập nhật: 22/12/2021
+# Cập nhật: 23/12/2021
 
 # Vị Trí Lưu
 - [Module command](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/commands)
+
+# Modules
+- **autoSetName** - Tự động đổi tên khi có thành viên vào nhóm: [commands/autoSetName.js](modules/commands/autoSetName.js)
+- **baucua** - Chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
+- **set** - Thay đổi một vài thứ trong nhóm: [commands/set.js](modules/commands/set.js)
 # Một số module khác
 - Nhấn vào [đây](https://github.com/ProcoderMew/Module-Miraiv2)
 
@@ -22,3 +27,4 @@
 
 # Tác Giả
 - **MintDaL** - [GitHub](https://github.com/MintDaL) - [Facebook](https://www.facebook.com/MyNameIsMintDaL)
+
