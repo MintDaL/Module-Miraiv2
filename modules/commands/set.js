@@ -1,5 +1,5 @@
 /**
- * @author MintDaL
+ * @author MiraiTeam but fix by MintDaL
  * @warn Do not edit code or edit credits
  */
 module.exports.config = {
