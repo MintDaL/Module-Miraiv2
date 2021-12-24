@@ -9,7 +9,7 @@ module.exports.config = {
 	credits: "Team Mirai",
 	description: "Thay đổi something of nhóm",
 	commandCategory: "box",
-	usages: "set [emoji/avt/Bname/poll/QTV/name/rcolor] [args]",
+	usages: "[emoji/avt/Bname/poll/QTV/name/rcolor] [args]",
 	cooldowns: 5,
 	dependencies: {"request":"",
                  "fs-extra":""},
