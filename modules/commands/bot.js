@@ -107,7 +107,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
       }
     }
     var callback = () =>
-      return api.sendMessage({ body: getText("bot", msg.join("\n"), date, prefix, namebot, Math.floor(resault), Date.now() - dateNow, commands.size, hours, minutes, seconds,  global.data.allUserID.length, global.data.allThreadID.length, data[Math.floor(Math.random() * data.length)]), attachment: fs.createReadStream(__dirname + "/cache/nah.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/nah.jpg"));
+      api.sendMessage({ body: getText("bot", msg.join("\n"), date, prefix, namebot, Math.floor(resault), Date.now() - dateNow, commands.size, hours, minutes, seconds,  global.data.allUserID.length, global.data.allThreadID.length, data[Math.floor(Math.random() * data.length)]), attachment: fs.createReadStream(__dirname + "/cache/nah.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/nah.jpg"));
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/nah.jpg")).on("close", () => callback()); 
   
     /*
