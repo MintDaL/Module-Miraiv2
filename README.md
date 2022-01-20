@@ -9,7 +9,8 @@
 # Cập nhật: 14/01/2022
 
 # Vị Trí Lưu
-- [Module command](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/commands)
+- Module command: [Module command](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/commands)
+- Module event: [modules/events](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/events)
 
 # Modules
 - **autoSetName** - Tự động đổi tên khi có thành viên vào nhóm: [commands/autoSetName.js](modules/commands/autoSetName.js)
@@ -21,7 +22,7 @@
 
 
 # Hướng Dẫn Tạo APIKEY 
-- Để sử dụng được một số lệnh của [Mew](https://github.com/ProCoderMew) cần apikey, bạn cần phải tạo một apikey mới để có thể sử dụng lệnh.
+- Để sử dụng được một số lệnh của [Mew](https://github.com/ProCoderMew/Module-Miraiv2) cần apikey, bạn cần phải tạo một apikey mới để có thể sử dụng lệnh.
 - Web login: [MeewMeew](https://meewmeew.info/site)
 
 [![Generator APIKEY](https://img.youtube.com/vi/HPiA_Pdtmcw/0.jpg)](https://youtu.be/HPiA_Pdtmcw)
