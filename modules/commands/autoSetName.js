@@ -1,6 +1,8 @@
 /**
- * @author THọ
+ * @author Thọ
  * @warn Do not edit code or edit credits
+ Đây là file commands vui lòng qua event paste thêm cái ở event nữa mà xài
+ 
  */
 module.exports.config = {
   name: "autoSetname",
