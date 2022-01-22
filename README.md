@@ -30,5 +30,5 @@
 # Tác Giả
 - **MintDaL** - [GitHub](https://github.com/MintDaL) - [Facebook](https://www.facebook.com/MyNameIsMintDaL)
 
-### Mùng 1 update adminboxonly ###
+# Mùng 1 update adminboxonly
 
