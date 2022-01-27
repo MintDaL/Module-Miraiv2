@@ -1,4 +1,5 @@
 ## Module-Mint
+# Đọc kĩ hướng dẫn trước khi dùng để tránh xảy ra lỗi không mong muốn!
 
 # Module hỗ trợ cho source [MiraiPr0ject/Miraiv2](https://github.com/miraiPr0ject/miraiv2)
 
@@ -32,3 +33,5 @@
 
 # Ở đây có bán adminboxonly
 
+# Note
+- Những module này không phải của chỉ mình tôi mà còn của **Thọ** - [GitHub](https://github.com/tho439) - [Facebook](https://facebook.com/tho439)
