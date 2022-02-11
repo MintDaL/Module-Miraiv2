@@ -2,6 +2,7 @@
 * @author tho493
 * @warn Do not edit code or edit credits
 * fix bug by ProCoderMew
+* Để sử dụng lệnh hãy thay file listen.js vào
 */
 
 module.exports.config = {
