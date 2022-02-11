@@ -1,7 +1,7 @@
 ## Module-Mint
 
 <h1 align="center">
-	<img src="https://i.imgur.com/ZOJ7kRm.png" alt="MintDaL">
+	<img src="https://i.imgur.com/qFVhqcc.png" alt="MintDaL">
 </h1>
 
 
