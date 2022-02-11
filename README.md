@@ -5,7 +5,7 @@
 </h1>
 
 
-# Đọc kĩ hướng dẫn trước khi dùng để tránh xảy ra lỗi không mong muốn!
+# Đọc kĩ README.md để tránh xảy ra lỗi không mong muốn!
 
 # Module hỗ trợ cho source [MiraiPr0ject/Miraiv2](https://github.com/miraiPr0ject/miraiv2)
 
