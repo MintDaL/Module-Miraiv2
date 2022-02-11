@@ -1,4 +1,10 @@
 ## Module-Mint
+
+<h1 align="center">
+	<img src="https://i.imgur.com/ZOJ7kRm.png" alt="MewMew">
+</h1>
+
+
 # Đọc kĩ hướng dẫn trước khi dùng để tránh xảy ra lỗi không mong muốn!
 
 # Module hỗ trợ cho source [MiraiPr0ject/Miraiv2](https://github.com/miraiPr0ject/miraiv2)
@@ -30,8 +36,6 @@
 
 # Tác Giả
 - **MintDaL** - [GitHub](https://github.com/MintDaL) - [Facebook](https://www.facebook.com/MyNameIsMintDaL)
-
-# Ở đây có bán adminboxonly
 
 # Note
 - Những module này không phải của chỉ mình tôi mà còn của **Thọ** - [GitHub](https://github.com/tho439) - [Facebook](https://facebook.com/tho439)
