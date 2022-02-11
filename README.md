@@ -20,10 +20,12 @@
 - Module event: [modules/events](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/events)
 
 # Modules
+- **adminonly** - Chỉnh bot về chế độ chỉ người điều hành bot được sử dụng: [commands/adminonly.js](modules/commands/adminonly.js)
 - **autoSetName** - Tự động đổi tên khi có thành viên vào nhóm: [commands/autoSetName.js](modules/commands/autoSetName.js)
 - **baucua** - Chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
 - **bot** - Một số thông tin về bot của bạn: [commands/bot.js](modules/commands/bot.js)
 - **set** - Thay đổi một vài thứ trong nhóm: [commands/set.js](modules/commands/set.js)
+
 # Một số module khác
 - Nhấn vào [đây](https://github.com/ProcoderMew/Module-Miraiv2)
 
