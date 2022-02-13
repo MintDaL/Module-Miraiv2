@@ -11,7 +11,7 @@ module.exports.config = {
 module.exports.run = async function ({ api, event, Threads }) {
   const { threadID, messageID } = event;
   const threadInfo = await api.getThreadInfo(threadID);
-	await Threads.setData(threadID, { name: threadInfo.name, threadInfo });
-	global.data.threadInfo.set(threadID, threadInfo);
+  await Threads.setData(threadID, { name: threadInfo.name, threadInfo });
+  global.data.threadInfo.set(threadID, threadInfo);
   return api.sendMessage(`Done.`, threadID, messageID);
 }
