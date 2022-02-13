@@ -24,6 +24,7 @@
 - **autoSetName** - Tự động đổi tên khi có thành viên vào nhóm: [commands/autoSetName.js](modules/commands/autoSetName.js)
 - **baucua** - Chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
 - **bot** - Một số thông tin về bot của bạn: [commands/bot.js](modules/commands/bot.js)
+- **roomchat** - Chat ẩn danh với người dùng qua bot: [commands/roomchat.js](modules/commands/roomchat.js)
 - **set** - Thay đổi một vài thứ trong nhóm: [commands/set.js](modules/commands/set.js)
 
 # Một số module khác
