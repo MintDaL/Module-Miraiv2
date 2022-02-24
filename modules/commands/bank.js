@@ -1,3 +1,8 @@
+/**
+ * @author MintDaL
+ * @warn Do not edit code or edit credits
+ */
+
 module.exports.config = {
     name: "bank",
     version: "2.0.5",
