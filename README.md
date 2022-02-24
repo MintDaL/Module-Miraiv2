@@ -13,7 +13,7 @@
 - **Cấm chỉnh sửa credits.**
 - **Hạn chế chỉnh sửa (mod) module.**
 
-# Cập nhật: 11/02/2022
+# Cập nhật: 24/02/2022
 
 # Vị Trí Lưu
 - Module command: [Module command](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/commands)
@@ -22,6 +22,7 @@
 # Modules
 - **adminonly** - Chỉnh bot về chế độ chỉ người điều hành bot được sử dụng: [commands/adminonly.js](modules/commands/adminonly.js)
 - **autoSetName** - Tự động đổi tên khi có thành viên vào nhóm: [commands/autoSetName.js](modules/commands/autoSetName.js)
+- **bank** - Tài khoản ngân hàng bot nhưng hoạt động độc lập: [commands/bank.js](modules/commands/bank.js)
 - **baucua** - Chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
 - **bot** - Một số thông tin về bot của bạn: [commands/bot.js](modules/commands/bot.js)
 - **roomchat** - Chat ẩn danh với người dùng qua bot: [commands/roomchat.js](modules/commands/roomchat.js)
