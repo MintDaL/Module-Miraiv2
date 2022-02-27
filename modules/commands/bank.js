@@ -152,7 +152,7 @@ module.exports.run = async function ({ api, event, args, Currencies, Users }) {
             }
         }
         default: {
-        return api.sendMessage({body:"=== 「 MDL BANK 」 === Đây là ngân hàng Bot được điều hành bởi MintDaL. Sau đây là cách sử dụng: \n\n» register: để đăng kí \n» info: để xem thông tin tài khoản bản thân\n» find: để tìm tài khoản ngân hàng \n» get: để rút tiền \n» pay: để chuyển tiền \n» send: nạp tiền vào tài khoản \n» pw: lấy lại pass hoặc đổi password tài khoản ngân hàng của bạn", attachment: createReadStream(__dirname + `/cache/bank.jpg`)}, threadID, messageID);
+        return api.sendMessage({body:"=== 「 MDL BANK 」 === Đây là ngân hàng Bot được điều hành bởi MintDaL. Sau đây là cách sử dụng: \n\n» register: để đăng kí \n» info: để xem thông tin tài khoản bản thân\n» find: để tìm tài khoản ngân hàng \n» get: để rút tiền \n» pay: để chuyển tiền \n» send: nạp tiền vào tài khoản \n» pw: lấy lại pass hoặc đổi password tài khoản ngân hàng của bạn", attachment: createReadStream(__dirname + `/cache/bank.png`)}, threadID, messageID);
         }
     }
 async function checkMoney(senderID, maxMoney) {
