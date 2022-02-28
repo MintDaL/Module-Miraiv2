@@ -5,7 +5,7 @@
 
 module.exports.config = {
 	name: "baicao",
-	version: "2.0.3",
+	version: "2.0.1",
 	hasPermssion: 0,
 	credits: "CatalizCS",
 	description: "Game bài cào dành cho nhóm có đặt cược\nMod by MintDaL",
@@ -120,7 +120,7 @@ module.exports.handleEvent = async ({ Currencies, event, api, Users }) => {
 			
 			return api.sendMessage(`Kết quả:\n\n ${ranking.join("\n")}\n\nRiêng người chơi đứng đầu nhận được ${values.rateBet * player.length}$`, threadID);
 		}
-		else return api.sendMessage(`Người chơi ${name} đã sẵn sàng lật bài, còn lại: ${values.player.length - values.ready} người chơi chưa lật bài`, event.threadID);
+		else return api.sendMessage(`Người chơi ${name} đã sẵn sàng lật bài, còn ${values.player.length - values.ready} người chơi chưa lật bài`, event.threadID);
 	}
 	
 	if (body.indexOf("nonready") == 0) {
@@ -220,7 +220,7 @@ module.exports.run = async ({ api, event, args, Currencies }) => {
 		}
 
 		default: {
-			console.log("MintDaL's module. Bạn có thể donate cho tôi qua vietcombank 1020480044 để tôi có thêm động lực", "[ INFO ]")
+			console.log("[ MINT ] » Hi, have a good day.")
 		}
 	}
 }
@@ -245,11 +245,10 @@ for (let i = 0 ; i < values.length; i++) {
 }
 
 module.exports.onLoad = async () => {
-	const fs = require("fs");
-	await require('axios').get("https://raw.githubusercontent.com/MintDaL/Module-miraiv2/main/version.json").then(res => {
-		if (res.data["baicao"] != this.config.version) console.log("[ NOTI ] » Đã có phiên bản mới của baicao. Liên hệ MintDaL để được cập nhật");
-	})
-	console.log("======BAICAO LOADED SUCCESSFULLY======");
+	console.log("====== BAICAO LOADED SUCCESSFULLY ======");
+  console.log("[ INFO ] » MintDaL's module");
+  console.log("[ DONATE ] » Bạn có thể donate cho tôi để giúp tôi có thêm động lực code");
+  console.log("============ Vietcombank: 1020480044 - NGUYEN DO THANH MINH ============")
 };
 
 function createDeck() {
@@ -269,14 +268,14 @@ function getLinkCard(Value, Suit) {
 }
 
 async function drawCard(cards) {
-  const Canvas = require("canvas");
-	const canvas = Canvas.createCanvas(500*cards.length, 726);
-  const ctx = canvas.getContext("2d");
+  const a = require("canvas");
+	const b = a.createCanvas(500 * cards.length, 726);
+  const ctx = b.getContext("2d");
   let x = 0;
   for (const card of cards) {
-    const loadImgCard = await Canvas.loadImage(card);
+    const loadImgCard = await a.loadImage(card);
     ctx.drawImage(loadImgCard, x, 0);
     x += 500;
   }
-  return canvas.toBuffer();
+  return b.toBuffer();
 }
