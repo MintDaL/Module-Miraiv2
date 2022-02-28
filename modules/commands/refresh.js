@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 1,
   credits: "MintDaL",
   description: "Làm mới dữ liệu thành viên nhóm",
-  commandCategory: "QTV-box",
+  commandCategory: "group",
   cooldowns: 5,
 };
 
