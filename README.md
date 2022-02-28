@@ -20,8 +20,9 @@
 - Module event: [modules/events](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/events)
 
 # Modules
-- **adminonly** - Chỉnh bot về chế độ chỉ người điều hành bot được sử dụng: [commands/adminonly.js](modules/commands/adminonly.js)
+- **adminboxonly** - Chỉnh bot về chế độ chỉ quản trị viên nhóm được sử dụng: [commands/adminboxonly.js](modules/commands/adminboxonly.js)
 - **autoSetName** - Tự động đổi tên khi có thành viên vào nhóm: [commands/autoSetName.js](modules/commands/autoSetName.js)
+- **baicao** - Chơi bài cào với mọi người trong nhóm: [commands/baicao.js](modules/commands/baicao.js)
 - **bank** - Tài khoản ngân hàng bot nhưng hoạt động độc lập: [commands/bank.js](modules/commands/bank.js)
 - **baucua** - Chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
 - **bot** - Một số thông tin về bot của bạn: [commands/bot.js](modules/commands/bot.js)
