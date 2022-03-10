@@ -264,7 +264,7 @@ function createDeck() {
 }
 
 function getLinkCard(Value, Suit) {
-  return `https://raw.githubusercontent.com/MintDaL/card/main/cards/${Value == "J" ? "jack" : Value == "Q" ? "queen" : Value == "K" ? "king" : Value == "A" ? "ace" : Value}_of_${Suit}.png`;
+  return `https://raw.githubusercontent.com/MintDaL/data/main/cards/${Value == "J" ? "jack" : Value == "Q" ? "queen" : Value == "K" ? "king" : Value == "A" ? "ace" : Value}_of_${Suit}.png`;
 }
 
 async function drawCard(cards) {
