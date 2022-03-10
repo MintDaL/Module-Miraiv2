@@ -1,6 +1,6 @@
 /*
  * @author CatalizCS
- * @warn Do not edit credit
+ * @warn Do not edit credit 
  */
 
 module.exports.config = {
