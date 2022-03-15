@@ -4,7 +4,7 @@
  */
 
 module.exports.config = {
-  name: "banbaucua",
+  name: "baucua",
   version: "1.0.4",
   hasPermssion: 0,
   credits: "MintDaL",
