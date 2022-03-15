@@ -34,16 +34,28 @@ module.exports = function({ api, models }) {
 	/////////////////////////////////////////////////
 	return (event) => {
     try {
-      var oa = require('../modules/commands/cache/oa.json');
-      if (!oa[event.threadID]) {
-        oa[event.threadID] = false;
-        fs.writeFileSync('modules/commands/cache/oa.json', JSON.stringify(oa, null, 2));
+      var oaPath = path.resolve(process.cwd(), 'modules', 'commands', 'cache', 'oa.json');
+      if (!fs.existsSync(oaPath)) {
+        fs.writeFileSync(oaPath, JSON.stringify({
+          "oa": {},
+          "oab": {}
+        }, null, 4));
+        return logger('Create OA.json', '[ MewDevPro ]')
       }
-      else {
-        if (oa[event.threadID] === true) {
-          var { adminIDs } = threadInfo.get(event.threadID);
-          if (!ADMINBOT.some(e => e == event.senderID) && !adminIDs.map(e => String(e.id)).includes(event.senderID)) return;
-        }
+      var All = require(oaPath);
+      if (!All.oa[event.threadID]) {
+        All.oa[event.threadID] = false;
+        fs.writeFileSync(oaPath, JSON.stringify(All, null, 2));
+      }
+      if (!All.oab[event.threadID]) {
+        All.oab[event.threadID] = false;
+        fs.writeFileSync(oaPath, JSON.stringify(All, null, 2));
+      }
+      if (All.oa[event.threadID])
+        if (!ADMINBOT.some(e => e == event.senderID)) return;
+      if (All.oab[event.threadID]) {
+        var { adminIDs } = threadInfo.get(event.threadID);
+        if (!ADMINBOT.some(e => e == event.senderID) && !adminIDs.map(e => String(e.id)).includes(event.senderID)) return;
       }
     } catch (ex) {
       console.log(ex)
