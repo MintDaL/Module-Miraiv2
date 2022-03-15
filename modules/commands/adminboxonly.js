@@ -25,6 +25,5 @@ module.exports.run = async function ({ api, event, Threads }) {
   const threadInfo = await api.getThreadInfo(event.threadID);
   await Threads.setData(event.threadID, { name: threadInfo.name, threadInfo });
   global.data.threadInfo.set(event.threadID, threadInfo);
-
   return api.sendMessage(`[ MODE ] » Đã ${(All.oa[threadID] == true) ? "bật" : "tắt"} chế độ chỉ quản trị viên nhóm được sử dụng bot.`, threadID, messageID);
 }
