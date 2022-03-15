@@ -21,10 +21,11 @@
 
 # Modules
 - **adminboxonly** - Chỉnh bot về chế độ chỉ quản trị viên nhóm được sử dụng: [commands/adminboxonly.js](modules/commands/adminboxonly.js)
+- **adminonly** - Chỉnh bot về chế độ chỉ người điều hành bot được sử dụng: [commands/adminonly.js](modules/commands/adminonly.js)
 - **autoSetName** - Tự động đổi tên khi có thành viên vào nhóm: [commands/autoSetName.js](modules/commands/autoSetName.js)
 - **baicao** - Chơi bài cào với mọi người trong nhóm: [commands/baicao.js](modules/commands/baicao.js)
 - **bank** - Tài khoản ngân hàng bot nhưng hoạt động độc lập: [commands/bank.js](modules/commands/bank.js)
-- **baucua** - Chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
+- **banbaucua** - Tạo bàn chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
 - **bot** - Một số thông tin về bot của bạn: [commands/bot.js](modules/commands/bot.js)
 - **set** - Thay đổi một vài thứ trong nhóm: [commands/set.js](modules/commands/set.js)
 
@@ -40,6 +41,3 @@
 
 # Tác Giả
 - **MintDaL** - [GitHub](https://github.com/MintDaL) - [Facebook](https://www.facebook.com/MyNameIsMintDaL)
-
-# Note
-- Những module này không phải của chỉ mình tôi mà còn của **Thọ** - [GitHub](https://github.com/tho439) - [Facebook](https://facebook.com/tho439)
