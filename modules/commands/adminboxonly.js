@@ -5,25 +5,26 @@
 */
 
 module.exports.config = {
-name: "adminboxonly",
-version: "1.0.1",
-hasPermssion: 1,
-credits: "ProCoderMew",
-description: "Cài đặt bot về chế độ chỉ admin bot được sử dụng bot",
-commandCategory: "system",
-cooldowns: 5,
+  name: "adminbox",
+  version: "1.0.1",
+  hasPermssion: 2,
+  credits: "MewDevPro",
+  description: "Cài đặt bot về chế độ chỉ admin box/bot được sử dụng bot",
+  commandCategory: "system",
+  cooldowns: 5,
 };
 
-module.exports.run = async function({ api, event, Threads }) {
-const { threadID, messageID } = event;
-let data = (await Threads.getData(threadID)).data;
-const threadInfo = await api.getThreadInfo(event.threadID);
-await Threads.setData(event.threadID, { name: threadInfo.name, threadInfo });
-global.data.threadInfo.set(event.threadID, threadInfo);
-if (typeof data["only_admin_group"] == "undefined" || data["only_admin_group"] == false) data["only_admin_group"] = true;
-else data["only_admin_group"] = false;
+module.exports.run = async function ({ api, event, Threads }) {
+  const { threadID, messageID } = event;
+  const fs = require('fs-extra');
+  const path = require('path');
+  const oaPath = path.resolve(__dirname, 'cache', 'oa.json');
+  const All = require(oaPath);
+  All.oab[threadID] = !All.oab[threadID] ? true : false;
+  fs.writeFileSync(oaPath, JSON.stringify(All, null, 4));
+  const threadInfo = await api.getThreadInfo(event.threadID);
+  await Threads.setData(event.threadID, { name: threadInfo.name, threadInfo });
+  global.data.threadInfo.set(event.threadID, threadInfo);
 
-await Threads.setData(threadID, { data });
-global.data.threadData.set(threadID, data);
-return api.sendMessage(`[ MODE ] » Đã ${(oa[threadID] == true) ? "bật" : "tắt"} chế độ chỉ quản trị viên được sử dụng bot.`, threadID, messageID);
+  return api.sendMessage(`[ MODE ] » Đã ${(All.oa[threadID] == true) ? "bật" : "tắt"} chế độ chỉ quản trị viên nhóm được sử dụng bot.`, threadID, messageID);
 }
