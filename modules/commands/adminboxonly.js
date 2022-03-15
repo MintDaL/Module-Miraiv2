@@ -1,5 +1,5 @@
 /*
-* @author ProCoderMew
+* @author MewDevPro
 * @warn Do not edit code or edit credits
 * Để sử dụng lệnh hãy thay file listen.js vào
 */
@@ -7,9 +7,9 @@
 module.exports.config = {
   name: "adminbox",
   version: "1.0.1",
-  hasPermssion: 2,
+  hasPermssion: 1,
   credits: "MewDevPro",
-  description: "Cài đặt bot về chế độ chỉ admin box/bot được sử dụng bot",
+  description: "Cài đặt bot về chế độ chỉ quản trị viên được sử dụng bot",
   commandCategory: "system",
   cooldowns: 5,
 };
