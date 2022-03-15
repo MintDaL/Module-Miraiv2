@@ -26,6 +26,7 @@
 - **baicao** - Chơi bài cào với mọi người trong nhóm: [commands/baicao.js](modules/commands/baicao.js)
 - **bank** - Tài khoản ngân hàng bot nhưng hoạt động độc lập: [commands/bank.js](modules/commands/bank.js)
 - **banbaucua** - Tạo bàn chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
+- **baucua** - Chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
 - **bot** - Một số thông tin về bot của bạn: [commands/bot.js](modules/commands/bot.js)
 - **set** - Thay đổi một vài thứ trong nhóm: [commands/set.js](modules/commands/set.js)
 
