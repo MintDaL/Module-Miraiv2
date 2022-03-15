@@ -2,8 +2,9 @@
  * @author MintDaL
  * @warn Do not edit code or edit credits
  */
+
 module.exports.config = {
-  name: "baucua",
+  name: "banbaucua",
   version: "1.0.4",
   hasPermssion: 0,
   credits: "MintDaL",
