@@ -66,17 +66,6 @@ module.exports.run = async function ({ api, event, args, Currencies, Users }) {
                 })
             );
         }
-         case 'all':
-         case '-a':{
-            if(checkBank.status == false) return api.sendMessage('Bạn chưa có tài khoản trên mirai bank!', threadID, messageID);
-            const res = (await axios.get(`https://api.kadeeruwu.repl.co/bank/top`)).data  
-            if(res.status == false) return api.sendMessage('Hiện tại chưa có dữ liệu!', threadID, messageID);
-            var msg = res.message + '\n'
-            for (let i of res.ranking) {
-                msg += `${i.rank}. ${i.name} - ${i.money}$\n===========\n`
-            }
-            return api.sendMessage(msg, threadID, messageID);
-        }
         case 'pay':
         case '-p': {
             if(checkBank.status == false) return api.sendMessage('Bạn chưa có tài khoản MDL Bank!', threadID, messageID);
