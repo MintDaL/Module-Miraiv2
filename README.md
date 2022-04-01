@@ -29,6 +29,7 @@
 - **baucua** - Chơi bầu cua cược tiền: [commands/baucua.js](modules/commands/baucua.js)
 - **bot** - Một số thông tin về bot của bạn: [commands/bot.js](modules/commands/bot.js)
 - **set** - Thay đổi một vài thứ trong nhóm: [commands/set.js](modules/commands/set.js)
+- **teamtag** - Tạo một nhóm tag trong nhóm của bạn để tránh làm phiền người khác: [commands/teamtag.js](modules/commands/teamtag.js)
 
 # Một số module khác
 - Nhấn vào [đây](https://github.com/ProcoderMew/Module-Miraiv2)
