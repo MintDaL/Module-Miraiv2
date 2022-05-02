@@ -13,7 +13,11 @@
 - **Cấm chỉnh sửa credits.**
 - **Hạn chế chỉnh sửa (mod) module.**
 
-# Cập nhật: 01/04/2022
+# Cập nhật: 02/05/2022
+
+## UPDATE DETAILS
+- Deleted adminboxonly
+- Fix bug listen for adminonly
 
 # Vị Trí Lưu
 - Module command: [Module command](https://github.com/miraiPr0ject/miraiv2/tree/main/modules/commands)
