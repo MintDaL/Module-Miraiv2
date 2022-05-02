@@ -15,8 +15,8 @@
 
 # Cập nhật: 02/05/2022
 
-## UPDATE DETAILS
-- Deleted adminboxonly
+## Chi tiết:
+- Xóa adminboxonly
 - Fix bug listen for adminonly
 
 # Vị Trí Lưu
